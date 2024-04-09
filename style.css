@@ -41,11 +41,7 @@ body {
   padding: 1em;
   font-size: 18px;
   align-items: center;
-}
-
-  
-
-.botao {
+}.botao {
   font-family: "Crakra Petch", sans-serif;
   background-color: var(--botao-inativo)
   color: var(--branco);
@@ -61,44 +57,19 @@ body {
   border-top: none;
 }
 
-<<<<<<< HEAD
 .botão:first-child{
-border-radius:40px 40px 0 0;
-}
-
+  border-radius:40px 40px 0 0;
 .botões{
  display: block;
 }
 @media screen  and(min-width:768px){
  .botoẽs{ 
   display:flex;
- 
-=======
-
-
+ }
 
 .botao:first-child {
   border-radius: 40px 40px 0 0;
->>>>>>> 8e0866cff79c2613584f3a21abcc828792eabe07
-}
-
-.botoes {
-  display: block;
-}
-@media screen and (min-width: 768px) {
-  .botoes {
-      display: flex;
-  }
-
-  .botao:first-child {
-      border-radius: 40px 0 0 0;
-  }
-
-  .botao:last-child {
-      border-radius: 0 40px 0 0;
-  }
 }
 
 
-
-
+  
