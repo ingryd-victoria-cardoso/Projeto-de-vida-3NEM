@@ -47,7 +47,7 @@ body {
 
 .botao {
   font-family: "Crakra Petch", sans-serif;
-  background-color: var(--botao-inativo);
+  background-color: var(--botao-inativo)
   color: var(--branco);
   display: flex;
   justify-content: center;
@@ -61,11 +61,25 @@ body {
   border-top: none;
 }
 
+<<<<<<< HEAD
+.botão:first-child{
+border-radius:40px 40px 0 0;
+}
+
+.botões{
+ display: block;
+}
+@media screen  and(min-width:768px){
+ .botoẽs{ 
+  display:flex;
+ 
+=======
 
 
 
 .botao:first-child {
   border-radius: 40px 40px 0 0;
+>>>>>>> 8e0866cff79c2613584f3a21abcc828792eabe07
 }
 
 .botoes {
