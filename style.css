@@ -56,12 +56,18 @@ body {
   border-right: 2px solid var(--botao-ativo);
   border-top: none;
 }
-
 .botão:first-child{
   border-radius:40px 40px 0 0;
 .botões{
  display: block;
 }
+ 
+.ativo{
+ background-color: var(--botao-ativo);
+ border-bottom: 4px solid var(--verde);
+}
+
+
 @media screen  and(min-width:768px){
  .botoẽs{ 
   display:flex;
