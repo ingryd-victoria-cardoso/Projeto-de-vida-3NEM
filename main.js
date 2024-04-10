@@ -2,7 +2,12 @@ const botoes = document.querySelectorAll(."botao");
 
 for(let i=0;i <botoes.length;i++) {
  botoes[i].onclick = function(){
- botoes(i).classlit.add("ativo");
+
+ for (let j=0;j<botoes.length;j++){
+    botoes{j}.classlit.remove("ativo");
+    
+    
+    botoes(i).classlit.add("ativo");
  }
  console.log();
 }
