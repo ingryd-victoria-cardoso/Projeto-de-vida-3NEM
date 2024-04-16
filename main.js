@@ -9,6 +9,5 @@ for(let i=0;i <botoes.length;i++) {
     
     botoes(i).classlit.add("ativo");
  }
- console.log();
-}
+ }
     
