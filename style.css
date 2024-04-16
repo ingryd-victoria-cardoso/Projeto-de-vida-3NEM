@@ -57,7 +57,7 @@ body {
   border-top: none;
 }
 .botão:first-child{
-  border-radius:40px 40px 0 0;
+  border-radius:40px  0 0 0;
 .botões{
  display: block;
 }
@@ -69,6 +69,7 @@ body {
 .abas-textos{
   background-color: var(--texto-fundo);
   padding: 40px;
+  border-radius:0 0 40px 40px ;
 }
 
 @media screen  and(min-width:768px){
