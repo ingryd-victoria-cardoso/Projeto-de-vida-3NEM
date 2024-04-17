@@ -88,7 +88,10 @@ body {
 .aba-conteudo-titulo-segundario{
   text-align: center;
   color:var(--verde)
+  text-transform: uppercase;
+  
 }
+
 
 
 
