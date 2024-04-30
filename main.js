@@ -23,7 +23,6 @@ const tempoObjetivo4 = new Date("2025-02-05T00:00:00");
 
 const tempos = [tempoObjetivo1, tempoObjetivo2, tempoObjetivo3, tempoObjetivo4];
  
-
  
  function calculaTempo(tempoObjetivo) {
     let tempoAtual = new Date();
@@ -54,4 +53,4 @@ function atualizarCronometro(){
  setInterval(atualizarCronometro,1000)
  }
 
- comecaCronometro();
+ //comecaCronometro();
